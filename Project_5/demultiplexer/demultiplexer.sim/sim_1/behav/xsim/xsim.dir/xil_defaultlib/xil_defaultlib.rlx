@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 18 2020
+09:20:35
+/nfs/nfs2/home/mawlorch/demultiplexer/demultiplexer.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+/nfs/nfs2/home/mawlorch/demultiplexer/demultiplexer.srcs/sim_1/new/decoder_tb.sv,1772556186,systemVerilog,,,,decoder_tb,,uvm,,,,,,
+/nfs/nfs2/home/mawlorch/demultiplexer/demultiplexer.srcs/sim_1/new/demux_tb.sv,1772556218,systemVerilog,,,,demux_tb,,uvm,,,,,,
+/nfs/nfs2/home/mawlorch/demultiplexer/demultiplexer.srcs/sources_1/new/decoder.sv,1772221346,systemVerilog,,/nfs/nfs2/home/mawlorch/demultiplexer/demultiplexer.srcs/sources_1/new/demux.sv,,decoder,,uvm,,,,,,
+/nfs/nfs2/home/mawlorch/demultiplexer/demultiplexer.srcs/sources_1/new/demux.sv,1772558641,systemVerilog,,/nfs/nfs2/home/mawlorch/demultiplexer/demultiplexer.srcs/sources_1/new/top.sv,,demux,,uvm,,,,,,
+/nfs/nfs2/home/mawlorch/demultiplexer/demultiplexer.srcs/sources_1/new/top.sv,1772556931,systemVerilog,,,,top,,uvm,,,,,,

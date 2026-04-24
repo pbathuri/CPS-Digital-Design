@@ -1,0 +1,15 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
+| Date         : Wed Feb 25 16:50:36 2026
+| Host         : if4111linux-24 running 64-bit Ubuntu 22.04.5 LTS
+| Command      : report_bus_skew -warn_on_violation -file decoder_2_4_bus_skew_routed.rpt -pb decoder_2_4_bus_skew_routed.pb -rpx decoder_2_4_bus_skew_routed.rpx
+| Design       : decoder_2_4
+| Device       : 7a35ti-cpg236
+| Speed File   : -1L  PRODUCTION 1.23 2018-06-13
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

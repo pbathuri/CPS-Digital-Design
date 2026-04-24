@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Feb 25 16:50:11 2026
+# Process ID: 52913
+# Current directory: /nfs/nfs2/home/mawlorch/Project_5/Project_5.runs/impl_1
+# Command line: vivado -log decoder_2_4.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source decoder_2_4.tcl -notrace
+# Log file: /nfs/nfs2/home/mawlorch/Project_5/Project_5.runs/impl_1/decoder_2_4.vdi
+# Journal file: /nfs/nfs2/home/mawlorch/Project_5/Project_5.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source decoder_2_4.tcl -notrace

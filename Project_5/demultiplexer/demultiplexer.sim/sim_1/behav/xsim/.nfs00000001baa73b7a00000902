@@ -1,0 +1,6 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+x0000000
+Fatal: dec0(0,0,0) failed!
+Time: 20 ns  Iteration: 0  Process: /demux_tb/demux_test  Scope: demux_tb.demux_test  File: /nfs/nfs2/home/mawlorch/demultiplexer/demultiplexer.srcs/sim_1/new/demux_tb.sv Line: 34
+$finish called at time : 20 ns : File "/nfs/nfs2/home/mawlorch/demultiplexer/demultiplexer.srcs/sim_1/new/demux_tb.sv" Line 34

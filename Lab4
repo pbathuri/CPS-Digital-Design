@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+
+import paho.mqtt.client as mqtt
+import time
+import led_driver
+
+# White Bar Code Label Number on Each Raspberry Pi
+sensor_id = 986292
+
+def on_message(client, userdata, message):
+    print("topic:", message.topic)
+    print("message:", message.payload.decode('UTF-8'))
+    if message.topic == "sensors/986292/led/duty":
+        led.on(int(message.payload.decode('UTF-8')))
+    if message.topic == "sensors/986292/led/frequency":
+        led.change_frequency(int(message.payload.decode('UTF-8')))
+
+def on_connect(client,userdata,flags,rc):
+     if rc == 0:
+        print("Connected successfully")
+        # Subscribing here ensures it happens on every reconnect
+        client.subscribe("home/sensors")
+        topics = [(f"sensors/{sensor_id}/led/duty",986292),(f"sensors/{sensor_id}/led/frequency",986292)]
+        client.subscribe(topics)
+     else:
+        print(f"Connection failed with code {rc}")
+     pass
+    
+client = mqtt.Client()
+client.on_message=on_message
+client.on_connect=on_connect
+client.connect("pivot.iuiot.org")
+client.loop_start()
+
+pin = 18
+freq= 100
+led = led_driver.Led_Driver(pin, freq)
+while(1):
+    client.subscribe(f"sensors/986292/led/duty")
+    client.subscribe("sensors/986292/led/frequency")
+    time.sleep(5)
